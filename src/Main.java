@@ -9,9 +9,9 @@ public class Main {
     public static void main(String[] args) {
         List<Card> deck = new ArrayList<>();
 
-        for (int i = 0; i < 52; i++) {
+        for (int cardValue = 1; cardValue <= 13; cardValue++) {
             for (Suit suit : Suit.values()) {
-                deck.add(new Card(i, suit));
+                deck.add(new Card(cardValue, suit));
             }
         }
 

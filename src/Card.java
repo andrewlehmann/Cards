@@ -20,6 +20,6 @@ public class Card {
     }
 
     public String toString() {
-        return String.format("%s-%s", value, suit);
+        return String.format("%s of %s", value, suit);
     }
 }
